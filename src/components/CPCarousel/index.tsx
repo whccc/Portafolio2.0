@@ -19,17 +19,12 @@ const CPCarousel = () => {
                         alt="First slide"
                     />
                 </DivContainerCarouselItem>
-                <DivContainerCarouselItem>
-                    <ImgCarouselItem
-                        src="/images/landingtwo.jpg"
-                        alt="First slide"
-                    />
-                </DivContainerCarouselItem>
             </DivContainerCarousel>
             <DivContainerOver>
                 <DivContainerOverData className="animate__animated animate__bounce">
                     <H1OverData>Wilson Herney Castro Cabrera</H1OverData>
                     <POverData>Full Stack Javascript Developer</POverData>
+
                     <POverData>
                         <ImgOverData src="/images/github.png" />
                         <ImgOverData src="/images/linkedin.png" />

@@ -38,7 +38,8 @@ export const DivContainerOver = styled.div`
     position: absolute;
     z-index: 1;
     top: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgb(0, 0, 0, 0.5);
+
     width: 100%;
     height: 100%;
     display: flex;
@@ -58,14 +59,14 @@ export const H1OverData = styled.h1`
     @media (min-width: 1024px) {
         font-size: 50px;
     }
+    text-shadow: 1px 1px 2px #000;
 `
 export const POverData = styled.p`
     margin: 0px;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 900;
-    @media (min-width: 1024px) {
-        font-size: 30px;
-    }
+
+    text-shadow: 1px 1px 2px #000;
 `
 
 export const ImgOverData = styled.img`

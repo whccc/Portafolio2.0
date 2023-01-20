@@ -2,41 +2,36 @@ import {
     DivContainerSkills,
     DivContainerDataInfo,
     DivDataInfo,
-    PDataInfoIam,
     H1DataInfo,
     PDataInfo,
-    DivContainerDataSkills,
-    H1DataSkill,
     DivContainerSkill,
     DivContainerSkillFrontend,
     DivContainerFrontend,
     ImgSkill,
-    H2Title,
-    DivContainerBackend,
-    DivContainerSql,
-    DivContainerSkillSql
+    H2Title
 } from './styles'
 const CPSkils = () => {
     return (
         <DivContainerSkills>
+            <H1DataInfo>Info</H1DataInfo>
             <DivContainerDataInfo>
-                <H1DataInfo>Wilson Herney Castro Cabrera</H1DataInfo>
                 <DivDataInfo>
                     <PDataInfo>Information Systems Technologist</PDataInfo>
                     <PDataInfo>Medellín-Colombia</PDataInfo>
                     <PDataInfo>wilsoncastro0710@gmail.com</PDataInfo>
                 </DivDataInfo>
-                <PDataInfoIam>
-                    I am a responsible, creative person, with initiative and
-                    punctuality, I accept challenges and goals with pleasure;
-                    with good management of interpersonal relationships, ability
-                    to work in a team, in high pressure conditions, as well as
-                    to solve problems efficiently. Programming lover and very
-                    self-taught.
-                </PDataInfoIam>
+                <p>
+                    Soy una persona responsable, creativa, con iniciativa y
+                    puntualidad, asumo con agrado los retos y metas; con buen
+                    manejo de relaciones interpersonales, facilidad para
+                    trabajar en equipo, en condiciones de alta presión, así como
+                    para resolver problemas eficientemente. Amante a la
+                    programación y muy autodidacta.
+                </p>
             </DivContainerDataInfo>
-            <DivContainerDataSkills>
-                <H1DataSkill>Skills</H1DataSkill>
+            <br />
+            <div>
+                <H1DataInfo>Skills</H1DataInfo>
                 <DivContainerSkill>
                     <DivContainerFrontend>
                         <H2Title>Frontend</H2Title>
@@ -50,25 +45,25 @@ const CPSkils = () => {
                         </DivContainerSkillFrontend>
                     </DivContainerFrontend>
 
-                    <DivContainerBackend>
+                    <DivContainerFrontend>
                         <H2Title>Backend</H2Title>
                         <DivContainerSkillFrontend>
                             <ImgSkill src="/images/ImgBackendNode.jpg" />
                             <ImgSkill src="/images/ImgBackendExpress.jpg" />
                             <ImgSkill src="/images/ImgBackendAdonis.jpg" />
                         </DivContainerSkillFrontend>
-                    </DivContainerBackend>
+                    </DivContainerFrontend>
 
-                    <DivContainerSql>
+                    <DivContainerFrontend>
                         <H2Title>Database</H2Title>
-                        <DivContainerSkillSql>
+                        <DivContainerSkillFrontend>
                             <ImgSkill src="/images/ImgSqlMysql.jpg" />
                             <ImgSkill src="/images/ImgSqlSqlServer.jpg" />
                             <ImgSkill src="/images/ImgSqlMongoDb.jpg" />
-                        </DivContainerSkillSql>
-                    </DivContainerSql>
+                        </DivContainerSkillFrontend>
+                    </DivContainerFrontend>
                 </DivContainerSkill>
-            </DivContainerDataSkills>
+            </div>
         </DivContainerSkills>
     )
 }
