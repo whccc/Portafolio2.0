@@ -28,7 +28,7 @@ const CPCardProject = ({
                     <HTitleProject>{Title}</HTitleProject>
                     <p>{DescriptionShort}</p>
                     <PDescriptionProject>
-                        <strong>Technologies:</strong> {Tecnologies}
+                        <strong>Tecnologías:</strong> {Tecnologies}
                     </PDescriptionProject>
                     <ButtonViewProject onClick={() => setShowModal(true)}>
                         See more
@@ -39,7 +39,6 @@ const CPCardProject = ({
                 <WrapperModal>
                     <button onClick={() => setShowModal(false)}>X</button>
 
-                    <br />
                     <div>
                         <div>
                             <h1>{Title}</h1>
@@ -54,7 +53,7 @@ const CPCardProject = ({
                         <div>
                             <p>{Description}</p>
                             <hr />
-                            <h1>Tecnologies</h1>
+                            <h1>Tecnologías</h1>
                             <p>{Tecnologies}</p>
                         </div>
                         <hr />

@@ -68,15 +68,16 @@ export const WrapperModal = styled.div`
             width: 100%;
         }
     }
-    & > div:nth-child(3) {
+    & > div:nth-child(2) {
         overflow: auto;
-        max-height: 500px;
+        height: 95vh;
         background-color: #fff;
         border-radius: 20px;
         width: 90%;
         margin: auto;
         position: relative;
-        top: 50px;
+        top: 10px;
+
         padding: 20px;
     }
 

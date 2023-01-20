@@ -40,7 +40,7 @@ const HomePage = () => {
                 </DivContainerSkills>
                 <hr style={{ background: '#fff' }} />
                 <DivContainerProject>
-                    <H1DataInfo>Projects</H1DataInfo>
+                    <H1DataInfo>Proyectos</H1DataInfo>
                     <DivContainerProjectsWeb>
                         {JsonProjectsWeb.map(DataItem => {
                             return (
@@ -51,7 +51,7 @@ const HomePage = () => {
                         })}
                     </DivContainerProjectsWeb>
                     <hr style={{ background: '#fff' }} />
-                    <H1DataInfo>Mobile - React Native</H1DataInfo>
+                    <H1DataInfo>Movil - React Native</H1DataInfo>
 
                     <DivContainerProjectsWeb>
                         {JsonProjectsMovil.map(DataItem => {
@@ -66,7 +66,7 @@ const HomePage = () => {
 
                 <hr style={{ background: '#fff' }} />
                 <div>
-                    <H1DataInfo>Certificates</H1DataInfo>
+                    <H1DataInfo>Certificados</H1DataInfo>
                     {JsonCertificates.map(DataCertificate => {
                         return (
                             <ImgCertificate src={DataCertificate.Certificate} />

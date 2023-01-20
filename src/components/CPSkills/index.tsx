@@ -13,7 +13,7 @@ import {
 const CPSkils = () => {
     return (
         <DivContainerSkills>
-            <H1DataInfo>Info</H1DataInfo>
+            <H1DataInfo>Información</H1DataInfo>
             <DivContainerDataInfo>
                 <DivDataInfo>
                     <PDataInfo>Information Systems Technologist</PDataInfo>
@@ -31,7 +31,7 @@ const CPSkils = () => {
             </DivContainerDataInfo>
             <br />
             <div>
-                <H1DataInfo>Skills</H1DataInfo>
+                <H1DataInfo>Habilidades</H1DataInfo>
                 <DivContainerSkill>
                     <DivContainerFrontend>
                         <H2Title>Frontend</H2Title>
@@ -51,6 +51,7 @@ const CPSkils = () => {
                             <ImgSkill src="/images/ImgBackendNode.jpg" />
                             <ImgSkill src="/images/ImgBackendExpress.jpg" />
                             <ImgSkill src="/images/ImgBackendAdonis.jpg" />
+                            <ImgSkill src="/images/Nestjs.png" />
                         </DivContainerSkillFrontend>
                     </DivContainerFrontend>
 
@@ -60,6 +61,7 @@ const CPSkils = () => {
                             <ImgSkill src="/images/ImgSqlMysql.jpg" />
                             <ImgSkill src="/images/ImgSqlSqlServer.jpg" />
                             <ImgSkill src="/images/ImgSqlMongoDb.jpg" />
+                            <ImgSkill src="/images/PostgreSQL.png" />
                         </DivContainerSkillFrontend>
                     </DivContainerFrontend>
                 </DivContainerSkill>
