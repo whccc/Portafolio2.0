@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Slider from 'react-slick'
 
 const CPSlider = ({ children, slides }) => {
     const settings = {
@@ -24,7 +23,7 @@ const CPSlider = ({ children, slides }) => {
             }
         ]
     }
-    return <Slider {...settings}>{children}</Slider>
+    return <div {...settings}>{children}</div>
 }
 
 export default CPSlider
